@@ -9,7 +9,7 @@ exporters:
     verbosity: detailed
 
   prometheus:
-    endpoint: "0.0.0.0:8889"
+    endpoint: prometheus.railway.internal:8889
     const_labels:
       label1: value1
 
